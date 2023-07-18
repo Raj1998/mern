@@ -8,6 +8,8 @@ Steps to run locally
 
 mongodb local setup is required
 
+change the api-key in `api/index.js`
+
 
 ## Approach
 - Current implementation is MVP stage. Also in the UI is bare minimum right now (with no styling)

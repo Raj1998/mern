@@ -8,9 +8,8 @@ const cors = require('cors');
 const methodObj = require('method-node');
 
 const method = new methodObj.Method({
-  //   apiKey: 'sk_HPfYTWmMqhiPhhxBHBrz4cqU', 
-//   apiKey: 'sk_MwFaQBL4MzMQAP6HAnJB84yV',
-  apiKey: 'sk_YmihYP3aDYVhfmJf3pp6iCKV',
+    
+  apiKey: 'API_KEY',
   env: methodObj.Environments.dev,
 });
 
