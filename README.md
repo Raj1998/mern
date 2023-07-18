@@ -6,6 +6,8 @@ Steps to run locally
 
 `cd ../ui; npm install; npm start`
 
+mongodb local setup is required
+
 
 ## Approach
 - Current implementation is MVP stage. Also in the UI is bare minimum right now (with no styling)

@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "03c1688a-f2a2-43fd-82d5-e879b20e5a6a",
+		"name": "MethodFi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11282203"
+	},
+	"item": [
+		{
+			"name": "file-upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "myFile",
+							"type": "file",
+							"src": "/Users/raj/Desktop/MethodFi/files/sample.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/upload?myFile",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"upload"
+					],
+					"query": [
+						{
+							"key": "myFile",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start-payments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "myFile",
+							"type": "file",
+							"src": "/Users/raj/Desktop/MethodFi/files/sample copy.xml"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/start-payments",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"start-payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reports/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/reports/1689615330566",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reports",
+						"1689615330566"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reports",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/reports/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reports",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
