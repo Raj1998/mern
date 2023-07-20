@@ -4,7 +4,7 @@ Steps to run locally
 
 `cd api; npm install; npm run dev`
 
-`cd ../ui; npm install; npm start`
+`cd ../ui-c; npm install; npm start`
 
 mongodb local setup is required
 
