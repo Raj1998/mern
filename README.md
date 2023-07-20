@@ -21,7 +21,7 @@ change the api-key in `api/index.js`
 
 - Also When the 601st request will hit and we see the 429 code, we have to add the setTimeout() to wait for some time.
 
-- On the UI side we may have pagination to avoid long scrolling, also individual reporting page should 
+- On the UI side we may have pagination to avoid long scrolling on the reporting page
 
 - I was told not to upload the whole file, since it would've taken 2 hours+ to finish processing. I used trimmed version of the file.
 
