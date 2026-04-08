@@ -1,6 +1,6 @@
 
 
-Steps to run locally
+Steps to run locally.
 
 `cd api; npm install; npm run dev`
 
